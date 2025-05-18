@@ -1,0 +1,13 @@
+app:
+  name: "Logistics System"
+  host: "127.0.0.1"
+  port: 8000
+  debug: true
+
+database:
+  type: "mysql"  
+  uri: "mysql:///../database/logistics.db"
+
+logistics:
+  max_package_weight: 50
+  delivery_regions: ["north", "south", "east", "west"]
